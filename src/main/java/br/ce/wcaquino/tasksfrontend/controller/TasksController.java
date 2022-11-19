@@ -63,7 +63,8 @@ public class TasksController {
 			model.addAttribute("todos", getTodos());
 		}
 	}
-	
+
+	//exemplo karol
 	@GetMapping("delete/{id}")
 	public String delete(@PathVariable Long id, Model model) {
 		RestTemplate restTemplate = new RestTemplate();
